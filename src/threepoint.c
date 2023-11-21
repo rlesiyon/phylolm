@@ -237,7 +237,7 @@ void threepoint (int *Npo, int *npo, int *pNpo, int *dYpo, int *dXpo, int *rootp
   }
   // combine all results at root edge into output
 
-  printf("%d", logd[r]);
+  printf("%f", logd[r]);
   output[0]=logd[r];
   output[1]=vec11[r];
   int p=2; // # parameters already logged
