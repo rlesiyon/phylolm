@@ -242,6 +242,7 @@ void threepoint (int *Npo, int *npo, int *pNpo, int *dYpo, int *dXpo, int *rootp
   output[1]=vec11[r];
   int p=2; // # parameters already logged
   int ikXY = r;
+  printf("%d", ikXY);
   for (int j=0; j<dY; j++){
     output[p+j] = y1[ikXY];
     ikXY += npN;
